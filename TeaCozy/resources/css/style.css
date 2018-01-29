@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 5;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission {
+  height: 700px;
+  width: 100%;
+  margin-top: 69px;
+  background-image: url('../images/background.jpg')
+}
+
+.mission .items {
+  margin: auto;
+  background-color: black;
+  width: 1200px;
+}
+
+.steep {
+  padding-top: 69px;
+}
+
+.tea .items {
+  padding: 5px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea span {
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.locations {
+  background-image: url(../images/locations.jpg);
+  height: 500px;
+  width: 100%;
+  padding-top: 69px;
+}
+
+.locations .items {
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
